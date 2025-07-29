@@ -10,7 +10,7 @@ public class Subtracao {
         double segundoNumero = 0;
         boolean entradaValida = false;
 
-        // Leitura do primeiro número
+   
         while (!entradaValida) {
             try {
                 System.out.print("Primeiro número: ");
@@ -23,7 +23,7 @@ public class Subtracao {
 
         entradaValida = false;
 
-        // Leitura do segundo número
+     
         while (!entradaValida) {
             try {
                 System.out.print("Segundo número: ");
@@ -34,7 +34,6 @@ public class Subtracao {
             }
         }
 
-        // Subtração sempre do maior pelo menor (valor absoluto da diferença)
         double resultado = Math.abs(primeiroNumero - segundoNumero);
         System.out.println("Resultado da subtração (diferença absoluta): " + resultado);
     }
