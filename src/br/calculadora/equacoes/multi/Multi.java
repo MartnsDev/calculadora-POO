@@ -10,7 +10,6 @@ public class Multi {
         double segundoNumero = 0;
         boolean entradaValida = false;
 
-        // Leitura do primeiro número
         while (!entradaValida) {
             try {
                 System.out.print("Primeiro número: ");
@@ -23,7 +22,7 @@ public class Multi {
 
         entradaValida = false;
 
-        // Leitura do segundo número
+       
         while (!entradaValida) {
             try {
                 System.out.print("Segundo número: ");
@@ -34,7 +33,7 @@ public class Multi {
             }
         }
 
-        // Multiplicação
+    
         double resultado = primeiroNumero * segundoNumero;
         System.out.println("Resultado da multiplicação: " + resultado);
     }
