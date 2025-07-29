@@ -10,7 +10,7 @@ public class Soma {
         double segundoNumero = 0;
         boolean entradaValida = false;
 
-        // Loop para garantir leitura correta do primeiro número
+       
         while (!entradaValida) {
             try {
                 System.out.print("Primeiro número: ");
@@ -23,7 +23,6 @@ public class Soma {
 
         entradaValida = false;
 
-        // Loop para garantir leitura correta do segundo número
         while (!entradaValida) {
             try {
                 System.out.print("Segundo número: ");
