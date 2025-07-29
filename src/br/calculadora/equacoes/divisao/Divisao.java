@@ -10,7 +10,7 @@ public class Divisao {
         double segundoNumero = 0;
         boolean entradaValida = false;
 
-        // Ler primeiro número
+      
         while (!entradaValida) {
             try {
                 System.out.print("Primeiro número: ");
@@ -23,7 +23,7 @@ public class Divisao {
 
         entradaValida = false;
 
-        // Ler segundo número (divisor)
+        
         while (!entradaValida) {
             try {
                 System.out.print("Segundo número (divisor): ");
