@@ -44,7 +44,7 @@ public class Calculadora {
 
             } catch (Exception e) {
                 System.out.println("Erro: entrada inválida. Digite apenas números.");
-                leitura.next(); // limpa o buffer
+                leitura.next(); 
             }
         }
 
